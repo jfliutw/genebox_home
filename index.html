@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>悅讀基因診所 GENEBOX | 專屬您的健康指南</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 自訂平滑滾動與基礎字型 */
+    html { scroll-behavior: smooth; font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang TC', '微軟正黑體', sans-serif; }
+    .glass-card { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); }
+  </style>
+</head>
+<body class="bg-[#F9F7F3] text-gray-800 antialiased">
+
+  <header class="fixed w-full top-0 z-50 glass-card border-b border-[#E8E1D9] shadow-sm">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-[#6B8E82] font-bold text-xl tracking-wider">
+        悅讀基因診所 <span class="text-sm font-normal text-gray-500">GENEBOX</span>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm font-medium text-gray-600">
+        <a href="#services" class="hover:text-[#6B8E82] transition-colors">健康指南</a>
+        <a href="#how-it-works" class="hover:text-[#6B8E82] transition-colors">服務流程</a>
+        <a href="#contact" class="hover:text-[#6B8E82] transition-colors">聯絡我們</a>
+      </nav>
+      <a href="#contact" class="px-5 py-2 bg-[#6B8E82] text-white rounded-full text-sm font-medium hover:bg-[#5A7A6F] transition-colors">
+        預約諮詢
+      </a>
+    </div>
+  </header>
+
+  <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <div class="absolute top-0 left-0 w-full h-full z-0 pointer-events-none">
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#E8E1D9] rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+      <div class="absolute bottom-10 -left-20 w-72 h-72 bg-[#DCE4E0] rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+    </div>
+
+    <div class="container mx-auto px-6 md:px-12 relative z-10">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left">
+          <span class="text-[#6B8E82] font-semibold tracking-wider text-sm mb-4">專屬您的個人化健康對策</span>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-gray-800">
+            讀懂身體的語言，<br>
+            <span class="text-[#6B8E82]">掌握專屬健康指南</span>
+          </h1>
+          <p class="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+            我們將精準的基因定序數據，轉化為您日常能輕鬆理解的實用資訊。沒有艱澀的醫學術語，只有為您量身打造的健康解答。
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a href="#services" class="px-8 py-3 bg-[#6B8E82] text-white rounded-full font-medium hover:bg-[#5A7A6F] transition-colors shadow-sm text-center">探索指南</a>
+            <a href="#contact" class="px-8 py-3 bg-white text-[#6B8E82] border border-[#6B8E82] rounded-full font-medium hover:bg-[#F9F7F3] transition-colors text-center">聯繫團隊</a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 mt-10 md:mt-0">
+          <div class="relative w-full h-[400px] md:h-[500px] rounded-[2rem] overflow-hidden shadow-lg border-4 border-white bg-[#E8E1D9] flex items-center justify-center">
+            <img src="https://i.ibb.co/8LxBSjMP/Untitled-2026-6-09-23-56-57-2.png" alt="悅讀基因診所提供的溫暖健康諮詢情境" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent pointer-events-none"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-24 bg-white relative">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">為未來準備的健康藍圖</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">不談難懂的學理與風險，我們只提供您生活中真正用得上的實用對策。</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        <div class="bg-[#F9F7F3] rounded-2xl p-8 border border-gray-100 hover:-translate-y-1 transition-transform shadow-sm">
+          <div class="w-12 h-12 rounded-full bg-[#E8E1D9] flex items-center justify-center text-xl mb-6">💊</div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">專屬用藥對策</h3>
+          <p class="text-gray-600 leading-relaxed text-sm">每個人的體質對藥物的反應不盡相同。我們為您整理出專屬的用藥安全清單，協助醫師避開潛在副作用，精準選擇最適合您的藥物。</p>
+        </div>
+        <div class="bg-[#F9F7F3] rounded-2xl p-8 border border-gray-100 hover:-translate-y-1 transition-transform shadow-sm">
+          <div class="w-12 h-12 rounded-full bg-[#DCE4E0] flex items-center justify-center text-xl mb-6">🛡️</div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">預防保養藍圖</h3>
+          <p class="text-gray-600 leading-relaxed text-sm">了解先天體質是為了提早準備。我們為您梳理出具體的日常保養對策與後續健檢建議，把健康的主動權穩穩握在手裡。</p>
+        </div>
+        <div class="bg-[#F9F7F3] rounded-2xl p-8 border border-gray-100 hover:-translate-y-1 transition-transform shadow-sm">
+          <div class="w-12 h-12 rounded-full bg-[#E6EADB] flex items-center justify-center text-xl mb-6">🥗</div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">營養與生活提案</h3>
+          <p class="text-gray-600 leading-relaxed text-sm">順應身體的聲音，了解您對特定營養素吸收與代謝的秘密。幫助您建立事半功倍的飲食與生活型態，讓健康管理更輕鬆。</p>
+        </div>
+      </div>
+
+      <div class="bg-[#6B8E82] rounded-[2rem] p-8 md:p-12 text-white shadow-lg">
+        <h3 class="text-2xl font-bold mb-4">亞洲唯一基因健檢</h3>
+	<h3 class="text-2xl font-bold mb-4">報告看得懂，才有用</h3>
+	<h3 class="text-2xl font-bold mb-4">資訊有對策，才有效</h3>
+        <p class="leading-relaxed opacity-90">
+          <br>直覺切入應用面，一步到位<br>
+	  DNA 資訊去識別保存，隨時提取，定期更新判讀結果<br>
+          真正實現家族化健康管理，一人受檢，全家族受惠
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="py-24 bg-[#F9F7F3]">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">輕鬆四步，開啟健康旅程</h2>
+        <p class="text-lg text-gray-600">把繁瑣的科學交給我們，您只需要放寬心享受過程。</p>
+      </div>
+
+      <div class="max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12 relative">
+          <div class="flex gap-6">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#6B8E82] text-white flex items-center justify-center font-bold text-xl shadow-md">1</div>
+            <div>
+              <h4 class="text-xl font-bold text-gray-800 mb-2">輕鬆預約與初步對談</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">透過專線或線上聯繫，由遺傳專業人員為您安排諮詢時間，並了解您的健康關注點。</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#6B8E82] text-white flex items-center justify-center font-bold text-xl shadow-md">2</div>
+            <div>
+              <h4 class="text-xl font-bold text-gray-800 mb-2">專業且舒適的檢體採集</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">在放鬆無壓的環境中，由專業團隊為您進行快速安全的採集。您只需放寬心，把剩下的交給我們。</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#6B8E82] text-white flex items-center justify-center font-bold text-xl shadow-md">3</div>
+            <div>
+              <h4 class="text-xl font-bold text-gray-800 mb-2">資訊彙整與定序分析</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">運用精準技術，找出有價值的資訊，並將龐雜數據轉譯為貼近日常的實用對策與指南。</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#6B8E82] text-white flex items-center justify-center font-bold text-xl shadow-md">4</div>
+            <div>
+              <h4 class="text-xl font-bold text-gray-800 mb-2">指南解析與後續陪伴</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">報告出爐後，以直覺圖表解說體質奧秘，並討論後續日常保養，提供長期的健康陪伴。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-24 bg-white">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">準備好探索專屬指南了嗎？</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          任何關於基因資訊的好奇，都歡迎聊聊。別擔心問錯問題，我們隨時為您解答。
+        </p>
+      </div>
+
+      <div class="flex flex-col lg:flex-row gap-12 items-stretch">
+        <div class="w-full lg:w-1/2 bg-[#F9F7F3] rounded-[2rem] p-8 md:p-12 shadow-sm border border-[#E8E1D9] flex flex-col justify-center">
+          <div class="mb-8 border-b border-[#DCE4E0] pb-8">
+            <h3 class="text-xl font-semibold text-[#6B8E82] mb-2 flex items-center gap-2">預約諮詢專線</h3>
+            <p class="text-3xl font-bold text-gray-800 mb-3">03-425-2889</p>
+            <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+              初次預約或有任何疑問，請直接來電。我們的 <span class="font-bold text-[#6B8E82]">遺傳諮詢師</span> 會為您安排最適合的諮詢時間。
+            </p>
+
+		
+            <div class="flex flex-col gap-4 max-w-md">
+              <a href="https://lin.ee/qT4uydU" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#06C755] text-white rounded-full font-medium hover:bg-[#05b34c] transition-colors shadow-sm text-sm sm:text-base w-full">
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-3.843 2.572-5.992zm-15.278 2.348h-2.887v-4.921h2.887v1.173h-1.637v.703h1.637v1.171h-1.637v.701h1.637v1.173zm3.174-2.827l-1.859 2.827h-1.396v-4.921h1.233v2.868l1.83-2.868h1.425v4.921h-1.233v-2.827zm3.149-2.094v4.921h-1.233v-4.921h1.233zm3.333 4.921h-2.888v-4.921h1.233v3.748h1.655v1.173z"/>
+                </svg>
+                諮詢專用 LINE 群組：一對一諮詢服務
+              </a>
+
+              <a href="https://web.gene-box.com.tw/SitePortal#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#6B8E82] text-white rounded-full font-medium hover:bg-[#5A7A6F] transition-colors shadow-sm text-sm sm:text-base w-full">
+                <svg class="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                前往 GENE BOX 產品介紹網站
+              </a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="font-semibold text-gray-800 mb-3">門診時間</h4>
+              <ul class="text-gray-600 space-y-2 text-sm">
+                <li class="flex justify-between"><span>星期一</span><span>09:30 – 12:00</span></li>
+                <li class="flex justify-between"><span>星期三</span><span>09:30 – 12:00</span></li>
+                <li class="mt-2 text-[#8ba89c] text-xs">其餘時間可另行約診，保留專注服務品質</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-800 mb-3">診所位置</h4>
+              <p class="text-gray-600 text-sm leading-relaxed mb-2">
+                桃園市中壢區<br>高鐵南路一段372號8樓
+              </p>
+              <a href="mailto:jfliu@gene-box.com" class="text-[#6B8E82] hover:text-[#5A7A6F] text-sm font-medium transition-colors">
+                jfliu@gene-box.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 min-h-[400px] rounded-[2rem] overflow-hidden shadow-sm border border-gray-100 relative bg-gray-100">
+          <iframe 
+            src="https://maps.google.com/maps?q=悅讀基因診所,桃園市中壢區高鐵南路一段372號8樓&hl=zh-TW&z=16&output=embed" 
+            width="100%" 
+            height="100%" 
+            style="border:0; position: absolute; top: 0; left: 0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-gray-400 py-8 text-center text-sm">
+    <div class="container mx-auto px-6">
+      <p>© 2026 悅讀基因診所 GENEBOX. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
